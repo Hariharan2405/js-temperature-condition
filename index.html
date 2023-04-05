@@ -1,0 +1,36 @@
+<!DocType html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="description" content="">
+		<meta name="keywords" content="HTML,JavaScript">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Temperature </title>	
+		
+	
+	</head>
+	
+	<body>
+
+		<script>
+			
+			
+			let temp=parseInt(prompt("Enter the Temperature Value")); 
+			switch(true){
+				case (temp<0) : console.log("Freezing");
+				break;
+				case (temp>=0 && temp<10) : console.log("Very cold");
+				break;
+				case (temp>=10 && temp<20) : console.log("Cold");
+				break;
+				case (temp>=20 && temp<30) : console.log("Normal");
+				break;
+				case (temp>=30 && temp<40) : console.log("Hot");
+				break;
+				default:console.log("Very hot");
+			}
+			
+			
+		</script>
+	</body>
+</html>
